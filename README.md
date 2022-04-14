@@ -1,10 +1,17 @@
 # activation_maximization_dataset
-In this repo I explore the activation maximization technique of convnets and produce a dataset of activation maximization filters. The general idea is to optimize an image in such a way that the response of a filter is maximizied. This let us see what each filter is "looking for" during the classification process. 
+In this repo I explore the activation maximization technique of convnets and produce a dataset of activation maximization filters. The general idea is to optimize an image in such a way that the response of a filter is maximizied. This let us see what each filter is "looking for" in the image during the classification process. 
 
 I decide to produce a new dataset, by computing the activation maximization for every filter in the VGG16 convoluted network, using imagenet pretrained weights. 
 
 The obtianed dataset is made of 4224 images, and its publicly available on kaggle.
-[dataset](https://www.kaggle.com/datasets/fastrmerizivic/vgg16-filter-activations)
+
+[VGG16 filter activations dataset](https://www.kaggle.com/datasets/fastrmerizivic/vgg16-filter-activations)
+
+## files summary
+
+1) computing_filter_activations.ipynb, compute the maximum activations
+2) how-random-are-you.ipynb, calculate our index for all the filters
+
 
 ## studying the filters
 Its an interesting task to study the obtained filters, or trying to classify them. 
