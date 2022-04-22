@@ -12,6 +12,15 @@ The obtianed dataset is made of 4224 images, and its publicly available on kaggl
 1) computing_filter_activations.ipynb, compute the maximum activations
 2) how-random-are-you.ipynb, calculate our index for all the filters
 
+## some sample filters 
+
+![](https://github.com/fmerizzi/activation_maximization_dataset/blob/main/images/filter-107.png)
+![](https://github.com/fmerizzi/activation_maximization_dataset/blob/main/images/filter-114.png)
+![](https://github.com/fmerizzi/activation_maximization_dataset/blob/main/images/filter-124.png)
+![](https://github.com/fmerizzi/activation_maximization_dataset/blob/main/images/filter-21.png)
+![](https://github.com/fmerizzi/activation_maximization_dataset/blob/main/images/filter-22.png)
+![](https://github.com/fmerizzi/activation_maximization_dataset/blob/main/images/filter-25.png)
+
 
 ## studying the filters
 Its an interesting task to study the obtained filters, or trying to classify them. 
